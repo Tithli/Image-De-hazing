@@ -54,4 +54,6 @@ The transmission map represents the haze density across the scene. It indicates 
 Image recovery is performed by using the estimated airlight and transmission map to restore the original colors and details of the scene. This is done by inversely attenuating the scattered light and removing the haze.
 
 ![Result](https://github.com/Tithli/Image-De-hazing/assets/122496614/ee7b8abe-ec7d-4684-acab-cb85dd4ba058)
+![Uploading Result.jpg…]()
+
 
