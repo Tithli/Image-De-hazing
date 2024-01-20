@@ -38,11 +38,11 @@ Some methods for airlight estimation are:
 
 # Mathematical Model
 Image dehazing can be mathematically modeled using the atmospheric scattering model:
-- I(x) = J(x)t(x) + A[1 − t(x)]
+                          - I(x) = J(x)t(x) + A[1 − t(x)]
 - I(x) - Observed hazy image
 - J(x) - Clean image to be recovered
 - t(x) - Transmission matrix
-- 𝑡(𝑥)=ⅇ^(−𝛽ⅆ(𝑥) )
+                          - 𝑡(𝑥)=ⅇ^(−𝛽ⅆ(𝑥) )
 - A – Airlight to be estimated, having 3 colour components (R, G, B)
 - 𝛽 – Attenuation coefficient of the atmosphere
 - d(x) – distance of the scene from pixel x
