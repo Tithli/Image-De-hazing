@@ -1,4 +1,4 @@
-# Image-De-hazing
+![image](https://github.com/Tithli/Image-De-hazing/assets/122496614/a848e66a-9645-4539-8a7e-7b59543f625e)# Image-De-hazing
 This repository contains MATLAB code for a dehazing algorithm based on non-local dehazing and airlight estimation. The primary script, main.m, serves as the entry point and demonstrates the usage of the non-local dehazing algorithm with airlight estimation.
 # Introduction
 The dehazing algorithm is designed to enhance hazy images by removing atmospheric effects. It combines non-local dehazing, which considers similarities between patches in the image, with an airlight estimation method to improve visibility and clarity.
@@ -46,3 +46,12 @@ $$I(x) = J(x)t(x) + A[1 − t(x)]$$
 - A – Airlight to be estimated, having 3 colour components (R, G, B)
 - 𝛽 – Attenuation coefficient of the atmosphere
 - d(x) – distance of the scene from pixel x
+
+# Transmission Map
+The transmission map represents the haze density across the scene. It indicates how much the light is attenuated or scattered by the haze at different locations in the image![image]
+
+# Image Recovery
+Image recovery is performed by using the estimated airlight and transmission map to restore the original colors and details of the scene. This is done by inversely attenuating the scattered light and removing the haze.
+
+![Result](https://github.com/Tithli/Image-De-hazing/assets/122496614/ee7b8abe-ec7d-4684-acab-cb85dd4ba058)
+
